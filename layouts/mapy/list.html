@@ -12,11 +12,11 @@
 	          </a>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="{{ $map.modal_id }}" tabindex="-1" role="dialog" aria-labelledby="{{ $map.modal_id }}_title" aria-hidden="true">
+          <div class="modal fade" id="{{ $map.modal_id }}" tabindex="-1" role="dialog" aria-labelledby="{{ $map.modal_id }}_label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content border-0">
                 <div class="modal-header bg-green">
-                  <h5 class="modal-title">{{ $map.text }}</h5>
+                  <h5 class="modal-title" id="{{ $map.modal_id }}_label">{{ $map.text }}</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>

@@ -13,4 +13,4 @@ Stavení se nachází uprostřed lesů a rybníků v poklidné přírodě. Ubyto
 
 Pobyt je vhodný pro rodiny s dětmi, sportovce všeho druhu i lidi hledající klidný odpočinek z jejich rušného života.
 
-{{< figure src="/img/location.png" alt="location" class="index-img-location mx-auto my-5" width="100%" >}}
+{{< figure src="/img/location.png" alt="location" class="index-img-location mx-auto my-5" >}}

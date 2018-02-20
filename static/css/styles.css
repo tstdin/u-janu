@@ -53,6 +53,7 @@ p, li, th, tr { color: #000000; }
 
 /* INDEX PAGE ================================ */
 .index-img-location { max-width: 80%; }
+.index-img-location img { width: 100%; }
 #slideshow {
   width: 93%;
   margin: 60px 0 0 0;

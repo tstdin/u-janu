@@ -27,13 +27,13 @@ weight: 4
 </table>
 
 <table class="table table-responsive-sm">
-  <theader>
+  <thead>
     <tr class="table-success">
       <th></th>
       <th>Datum</th>
       <th>Cena</th>
     </tr>
-  </theader>
+  </thead>
   <tbody>
     <tr>
       <th>Silvestr:</th>
