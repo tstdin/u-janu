@@ -1,0 +1,35 @@
+baseURL: "http://ubytovani-ujanu.cz/"
+title: "Ubytování U Janů"
+defaultContentLanguage: "cz"
+disableKinds: [ "RSS", "sitemap" ]
+ignoreFiles: [ "\\.xcf$" ]
+googleAnalytics: "UA-86207684-1"
+menu:
+    main:
+        - Name: "U Janů"
+          Weight: -1
+          URL: "/"
+        - Name: "Ubytování"
+          Weight: 1
+          URL: "/ubytovani/"
+        - Name: "Okolí"
+          Weight: 2
+          URL: "/okoli/"
+        - Name: "Foto"
+          Weight: 3
+          URL: "/foto/"
+          Identifier: "foto"
+        - Name: "Mapy"
+          Weight: 4
+          URL: "/mapy/"
+        - Name: "Kontakt"
+          Weight: 10
+          Identifier: "kontakt"
+        - Name: "Rezervace"
+          Weight: 11
+          Identifier: "rezervace"
+          URL: "/rezervace/"
+params:
+    keywords: "ubytování, U Janů, jižní Čechy, Třeboňsko, chalupa, statek, Majdalena, Chlum u Třeboně, Svět, Rožmberk"
+    description: "Přijeďte nasát atmosféry chalupy na samotě u obce Majdalena v CHKO Třeboňsko!"
+    author: "Tomáš Stefan"

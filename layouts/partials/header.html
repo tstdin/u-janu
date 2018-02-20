@@ -1,0 +1,38 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-green fixed-top shadow p-0">
+    <div class="bg-grey">
+      {{ range first 1 .Site.Menus.main }}
+        <a id="home" class="navbar-brand" href="{{ .URL }}">
+          <svg id="home-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13 14">
+            <path d="M11 7.75v3.75q0 0.203-0.148 0.352t-0.352 0.148h-3v-3h-2v3h-3q-0.203 0-0.352-0.148t-0.148-0.352v-3.75q0-0.008 0.004-0.023t0.004-0.023l4.492-3.703 4.492 3.703q0.008 0.016 0.008 0.047zM12.742 7.211l-0.484 0.578q-0.062 0.070-0.164 0.086h-0.023q-0.102 0-0.164-0.055l-5.406-4.508-5.406 4.508q-0.094 0.062-0.187 0.055-0.102-0.016-0.164-0.086l-0.484-0.578q-0.062-0.078-0.055-0.184t0.086-0.168l5.617-4.68q0.25-0.203 0.594-0.203t0.594 0.203l1.906 1.594v-1.523q0-0.109 0.070-0.18t0.18-0.070h1.5q0.109 0 0.18 0.070t0.070 0.18v3.188l1.711 1.422q0.078 0.062 0.086 0.168t-0.055 0.184z"></path>
+          </svg>
+          <span>{{ .Name }}</span>
+        </a>
+      {{ end }}
+    </div>
+
+    <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar_content" aria-controls="navbar_content" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar_content">
+      <ul class="navbar-nav mr-auto">
+        {{ $currentPage := . }}
+        {{ range where (where .Site.Menus.main ".Weight" ">=" 1) ".Weight" "<" 10 }}
+          <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}" class="nav-link"> {{ .Name }} </a></li>
+        {{ end }}
+      </ul>
+      <ul class="navbar-nav">
+        {{ range where .Site.Menus.main ".Weight" ">=" 10 }}
+          {{ if eq .Identifier "kontakt" }}
+            <li class="nav-item"><a id="{{ .Identifier }}" href="#footer-outer" class="nav-link" data-id="footer-outer">
+              <span class="dropdown-toggle"> {{ .Name }} </span></a>
+            </li>
+          {{ else if eq .Identifier "rezervace" }}
+            <li class="nav-item bg-red {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}" class="nav-link"> {{ .Name }} </a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </nav>
+</header>

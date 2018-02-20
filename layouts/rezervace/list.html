@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <div id="reservations" class="mx-auto">
+    {{ range .Params.booking }}
+      <div>
+        {{ with .name }}
+          <h2>{{ . }}</h2>
+        {{ end }}
+        <iframe id="{{ .id }}-iframe" src="{{ .iframe }}" class="w-100 my-3 border-0"></iframe>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md left-half">
+        {{ range first 2 .Data.Pages.ByWeight }}
+          <div class="card shadow">
+            {{ .Content }}
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-md right-half">
+        {{ range (where .Data.Pages "Weight" ">=" 3).ByWeight }}
+          <div class="card shadow">
+            {{ .Content }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

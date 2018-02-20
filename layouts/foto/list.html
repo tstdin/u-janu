@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div id="foto-gallery" class="photoswipe-gallery container-fluid row mx-auto justify-content-center align-items-center">
+    {{ $path := .Params.galleryPath }}
+    {{ range .Params.gallery }}
+      <figure class="col-lg-3 col-md-4 col-sm-5 col-xs-6 px-4">
+        <a href="{{ $path }}{{ .pic }}" data-size="{{ .size }}">
+          <img src="{{ $path }}{{ .thumb }}" alt="{{ .thumb }}" class="img-thumbnail mx-auto d-block h-grow h-shadow border-0 p-0 my-3 rounded">
+        </a>
+        {{ with .caption }}
+          <figcaption>{{ . }}</figcaption>
+        {{ end }}
+      </figure>
+    {{ end }}
+  </div>
+  {{ partial "photoswipe.html" . }}
+{{ end }}

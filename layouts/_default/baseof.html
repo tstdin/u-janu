@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+
+  <head>
+    {{ partial "head.html" . }}
+    {{ partial "styles.html" . }}
+  </head>
+
+  <body>
+    <main>
+      {{ partial "header.html" . }}
+      {{ block "main" . }}
+      {{ end }}
+      {{ partial "footer.html" . }}
+    </main>
+    {{ partial "scripts.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
+  </body>
+
+</html>

@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <div class="container-fluid">
+    <div class="row">
+      {{ range $ix, $map := .Params.maps }}
+        <div class="col-md {{ if eq $ix 0 }}left-half{{ else }}right-half{{ end }}">
+          <div class="maps-thumbnail mx-auto d-block">
+					  <a data-toggle="modal" data-target="#{{ $map.modal_id }}" href="#">
+    					<figure class="figure h-grow">
+  						  <img src="{{ $map.icon_src }}" alt="{{ $map.modal_id }}" class="figure-img h-shadow rounded">
+				        <figcaption class="text-center">{{ $map.text }}</figcaption>
+    					</figure>
+	          </a>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="{{ $map.modal_id }}" tabindex="-1" role="dialog" aria-labelledby="{{ $map.modal_id }}_title" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content border-0">
+                <div class="modal-header bg-green">
+                  <h5 class="modal-title">{{ $map.text }}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body p-0">
+                  <iframe src="{{ $map.iframe }}" class="" style="border:none;"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

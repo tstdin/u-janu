@@ -1,0 +1,4 @@
+---
+kind: "ubytovani"
+subtitle: "Ubytování"
+---

@@ -1,0 +1,22 @@
+* {
+    font-family: Verdana,sans-serif;
+    font-size: 13px;
+}
+
+span .legend { width: 24px; }
+
+select {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0e0e0 !important;
+}
+
+.month-name, .day-free, .day-full, .day-half, span.legend, button {
+    border-radius: 4px;
+}
+
+button {
+    color: #FFFFFF;
+    padding: 5px !important;
+}

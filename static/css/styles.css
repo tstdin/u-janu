@@ -1,0 +1,115 @@
+/* COMMON ==================================== */
+main { margin: 100px 0 0 0; }
+h1 { padding-bottom: 25px; }
+h3 { padding-bottom: 15px; }
+p, li, th, tr { color: #000000; }
+.left-half { padding: 0 4% 0 5% !important; }
+.right-half { padding: 0 5% 0 4% !important; }
+.shadow { box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.shadow-up { box-shadow: 0 -8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.h-shadow:hover { box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.h-grow {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.h-grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.h-no-decor:hover { text-decoration: none; }
+.bg-green { background-color: #33A333; }
+.bg-grey { background-color: #555555; }
+.bg-red { background-color: #F44333; }
+.rounded {
+  border-radius: 7% !important;
+  overflow: hidden;
+}
+
+/* NAVIGATION BAR ============================ */
+.navbar-brand, .navbar .navbar-nav .nav-link { padding: 12px 16px; }
+.navbar-brand, .nav-link { font-size: large; }
+.navbar-dark .navbar-nav .nav-link { color: #FFFFFF; }
+.navbar-dark .navbar-nav .nav-link:hover, #home:hover { color: #000000; }
+.navbar-dark .navbar-nav .active > .nav-link { color: #000000; }
+#home-icon {
+  height: 20px;
+  position: relative;
+  top: 3px;
+  right: 5px;
+  margin-left: 10px;
+}
+#home { fill: #FFFFFF; }
+#home:hover { fill: #000000; }
+
+/* FOOTER ==================================== */
+#footer-outer { margin-top: 100px; }
+#footer-inner { padding: 80px 60px 100px 60px; }
+#footer-inner, #footer-inner p, #footer-inner a { color: #FFFFFF; }
+
+/* INDEX PAGE ================================ */
+.index-img-location { max-width: 80%; }
+#slideshow {
+  width: 93%;
+  margin: 60px 0 0 0;
+}
+
+/* UBYTOVANI PAGE ============================ */
+.card {
+  padding: 30px 30px;
+  margin: 25px 0 50px;
+}
+.card h2 { padding-bottom: 20px; }
+.card li { line-height: 2.5; }
+.card table { margin-bottom: 35px; }
+
+/* OKOLI PAGE ================================ */
+#list-places {
+  list-style-type: none;
+  margin: 0 50px;
+  padding: 0;
+}
+#list-places li {
+  padding: 30px 0;
+  min-height: 300px;
+}
+#list-places img {
+  height: 220px;
+  margin: 0 30px 30px 5px;
+}
+
+/* FOTO PAGE ================================= */
+#foto-gallery {
+  width: 90vw;
+  max-width: 1300px;
+}
+#foto-gallery figcaption { display: none; }
+
+/* MAPY PAGE ================================= */
+.modal-header h5, .modal-header span { color: #FFFFFF; }
+.modal-dialog { min-width: 90vw; }
+.modal-content { height: 90vh; }
+.modal-body iframe {
+  height: 100%;
+  width: 100%;
+}
+.maps-thumbnail {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 165px;
+}
+.maps-thumbnail .figure-img { width: 100%; }
+.maps-thumbnail a { color: #000000; }
+
+/* REZERVACE PAGE ============================ */
+#reservations {
+  width: 90vw;
+  max-width: 1300px;
+}
+#reservations iframe {}
+#calendar-iframe { height: 550px; }
+#booking-iframe { height: 620px; }
