@@ -95,6 +95,7 @@ p, li, th, tr { color: #000000; }
 .modal-dialog { min-width: 90vw; }
 .modal-content { height: 90vh; }
 .modal-body iframe {
+  position: absolute;
   height: 100%;
   width: 100%;
 }
