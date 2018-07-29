@@ -3,7 +3,7 @@
     {{ range .Data.Pages.ByWeight }}
       <li>
         <div>
-          <a href={{ .Params.link }} target="_blank" rel="nofollow">
+          <a href={{ .Params.link }} target="_blank" rel="noopener">
             <img src={{ .Params.src }} alt={{ .Params.alt }} class="rounded-circle float-left h-shadow h-grow">
           </a>
         </div>
