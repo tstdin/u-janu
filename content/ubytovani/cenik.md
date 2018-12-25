@@ -47,8 +47,8 @@ weight: 4
   </tbody>
 </table>
 
-* Letní sezóna: 01.07. - 31.08.
-* Záloha: 50%, doplatek pobytu při příjezdu
+* Letní sezóna: 1.7. - 31.8.
+* Záloha: 50 %, doplatek pobytu při příjezdu
 * Vratná kauce: 3 000 Kč / započatý týden
 * Povolení k vjezdu: 120 Kč / vozidlo
 * Rekreační poplatek: 15 Kč / dospělá osoba / den

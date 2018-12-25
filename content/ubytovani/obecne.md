@@ -4,7 +4,7 @@ weight: 3
 
 ## Obecně
 
-Nabízíme k pronájmu celoročně 2 oddělené apartmány. V letní sezóně (01.07. - 31.08.) je možnost pouze pronájmu celého objektu na týden (od neděle do soboty).
+Nabízíme k pronájmu celoročně 2 oddělené apartmány. V letní sezóně (1.7. - 31.8.) je možnost pouze pronájmu celého objektu na týden (od neděle do soboty).
 
 Doprava je ideální vlastním vozem s možností parkování přímo u chalupy. V případě příjezdu vlakem či autobusem je cesta k chalupě okolo 5 km.
 
