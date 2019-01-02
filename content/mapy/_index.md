@@ -6,7 +6,7 @@ maps:
     - icon_src: "/img/mapy/seznam_maps.jpeg"
       modal_id: "maps_seznam"
       text: "Mapy.cz"
-      iframe: "https://api.mapy.cz/frame?params=%7B%22x%22%3A14.862466272695144%2C%22y%22%3A48.97994968804259%2C%22base%22%3A%222%22%2C%22layers%22%3A%5B7%5D%2C%22zoom%22%3A12%2C%22url%22%3A%22https%3A%2F%2Fmapy.cz%2Fs%2F10XWe%22%2C%22mark%22%3A%7B%22x%22%3A%2214.862466272695144%22%2C%22y%22%3A%2248.97994968804259%22%2C%22title%22%3A%22U%20Jan%C5%AF%2C%20T%C5%99ebo%C5%88%22%7D%2C%22overview%22%3Afalse%7D&amp;"
+      iframe: "https://api.mapy.cz/frame?params=%7B%22x%22%3A14.862442184129709%2C%22y%22%3A48.979577745355066%2C%22base%22%3A%222%22%2C%22layers%22%3A%5B7%5D%2C%22zoom%22%3A12%2C%22url%22%3A%22https%3A%2F%2Fmapy.cz%2Fs%2F3iGT7%22%2C%22mark%22%3A%7B%22x%22%3A%2214.862442184129709%22%2C%22y%22%3A%2248.979577745355066%22%2C%22title%22%3A%22Ubytov%C3%A1n%C3%AD%20U%20Jan%C5%AF%22%7D%2C%22overview%22%3Afalse%7D&amp;"
     - icon_src: "/img/mapy/google_maps.jpeg"
       modal_id: "maps_google"
       text: "Mapy Google"
