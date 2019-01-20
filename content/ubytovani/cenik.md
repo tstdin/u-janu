@@ -11,6 +11,8 @@ markup: "mmark"
 **Letní sezóna** | 22 000 Kč / chalupa | neposkytujeme
 **Mimo sezónu**  | 18 000 Kč / chalupa | 8 000 Kč / chalupa
 
+V letní sezóně 01.07. - 31.08. pronajímáme pouze celý objekt od neděle do soboty.
+
 #### Silvestr
 
 * Termín: 30.12. - 1.1.
@@ -18,13 +20,11 @@ markup: "mmark"
 * Prodloužení před i po: 2 500 Kč / den
 
 #### Další poplatky a informace
-* Letní sezóna: 1.7. - 31.8.
-* Záloha: 50 %, doplatek pobytu při příjezdu
-* Vratná kauce: 3 000 Kč / započatý týden
-* Povolení k vjezdu: 120 Kč / vozidlo
-* Rekreační poplatek: 15 Kč / dospělá osoba / den
-* Ložní prádlo: vlastní, nebo za poplatek 100 Kč / os / pobyt
-* Elektřina: podle skutečné spotřeby dle sazeb Eon
-* Úklid: vlastní nebo 1 000 Kč / chalupa
-* Nástup: neděle od 10 hodin
-* Předání: sobota od 12 hodin
+ * Záloha na pobyt: 50 % celkové ceny
+ * Doplatek pobytu při příjezdu
+ * Vratná kauce: 3 000 Kč / započatý týden
+ * Ložní prádlo: za poplatek 100 Kč / osoba / pobyt
+ * Elektřina: podle skutečné spotřeby dle sazeb Eon
+ * Závěrečný úklid: za poplatek 1 000 Kč / chalupa
+ * Rekreační poplatek: 15 Kč / dospělá osoba / den
+ * Povolení k vjezdu: 120 Kč / vozidlo

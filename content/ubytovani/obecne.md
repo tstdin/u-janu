@@ -3,11 +3,19 @@ weight: 3
 ---
 
 ## Obecně
-
-Nabízíme k pronájmu celoročně 2 oddělené apartmány. V letní sezóně (1.7. - 31.8.) je možnost pouze pronájmu celého objektu na týden (od neděle do soboty).
+Nabízíme pobyty celoročně. Mimo letní sezónu možnost ubytování i na víkend. Dále Silvestrovské pobyty, Vánoční pobyty a jarní pobyty.
 
 Doprava je ideální vlastním vozem s možností parkování přímo u chalupy. V případě příjezdu vlakem či autobusem je cesta k chalupě okolo 5 km.
 
 Stravování neposkytujeme. Možnost vaření ve vybavené kuchyňce nebo stravování v některém z okolních podniků (do 5 km).
 
-Domácí zvířata nejsou povolena.
+Domácí zvířata jsou zakázána.
+
+#### Sezónní pobyty
+ * Nástup: neděle od 10 hodin
+ * Předání objektu: následující sobota od 12 hodin
+
+#### Víkendové pobyty
+ * Jen mimo letní sezónu (01.07. - 31.08.)
+ * Nástup: pátek dle telefonické domluvy
+ * Předání objektu: neděle dle telefonické domluvy
