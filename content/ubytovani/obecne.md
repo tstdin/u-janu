@@ -16,6 +16,6 @@ Domácí zvířata jsou zakázána.
  * Předání objektu: následující sobota od 12 hodin
 
 #### Víkendové pobyty
- * Jen mimo letní sezónu (01.07. - 31.08.)
+ * Jen mimo letní sezónu
  * Nástup: pátek dle telefonické domluvy
  * Předání objektu: neděle dle telefonické domluvy
