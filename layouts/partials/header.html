@@ -18,18 +18,13 @@
     <div class="collapse navbar-collapse" id="navbar_content">
       <ul class="navbar-nav mr-auto">
         {{ $currentPage := . }}
-        {{ range where (where .Site.Menus.main ".Weight" ">=" 1) ".Weight" "<" 10 }}
-          <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}" class="nav-link"> {{ .Name }} </a></li>
-        {{ end }}
-      </ul>
-      <ul class="navbar-nav">
-        {{ range where .Site.Menus.main ".Weight" ">=" 10 }}
+        {{ range where .Site.Menus.main ".Weight" ">=" 1 }}
           {{ if eq .Identifier "kontakt" }}
             <li class="nav-item"><a id="{{ .Identifier }}" href="#footer-outer" class="nav-link" data-id="footer-outer">
               <span class="dropdown-toggle"> {{ .Name }} </span></a>
             </li>
-          {{ else if eq .Identifier "rezervace" }}
-            <li class="nav-item bg-red {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}" class="nav-link"> {{ .Name }} </a></li>
+          {{ else }}
+          <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}" class="nav-link"> {{ .Name }} </a></li>
           {{ end }}
         {{ end }}
       </ul>

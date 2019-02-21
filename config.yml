@@ -12,23 +12,23 @@ menu:
         - Name: "Ubytování"
           Weight: 1
           URL: "/ubytovani/"
-        - Name: "Okolí"
+        - Name: "Obsazenost"
           Weight: 2
+          Identifier: "rezervace"
+          URL: "/rezervace/"
+        - Name: "Okolí"
+          Weight: 3
           URL: "/okoli/"
         - Name: "Foto"
-          Weight: 3
+          Weight: 4
           URL: "/foto/"
           Identifier: "foto"
         - Name: "Mapy"
-          Weight: 4
+          Weight: 5
           URL: "/mapy/"
         - Name: "Kontakt"
-          Weight: 10
+          Weight: 6
           Identifier: "kontakt"
-        - Name: "Rezervace"
-          Weight: 11
-          Identifier: "rezervace"
-          URL: "/rezervace/"
 params:
     keywords: "ubytování, U Janů, jižní Čechy, Třeboňsko, chalupa, statek, Majdalena, Chlum u Třeboně, Svět, Rožmberk"
     description: "Přijeďte nasát atmosféry chalupy na samotě u obce Majdalena v CHKO Třeboňsko!"
