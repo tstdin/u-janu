@@ -8,8 +8,8 @@ markup: "mmark"
 {.table .table-responsive-sm}
 &nbsp;           | Týden (Ne - So)     | Víkend
 -----------------|---------------------|-------------------
-**Letní sezóna** | 22 000 Kč / chalupa | neposkytujeme
-**Mimo sezónu**  | 18 000 Kč / chalupa | 8 000 Kč / chalupa
+**Letní sezóna** | 23 000 Kč / chalupa | neposkytujeme
+**Mimo sezónu**  | 19 000 Kč / chalupa | 9 000 Kč / chalupa
 
 V letní sezóně 15.06. - 15.09. pronajímáme pouze celý objekt od neděle do soboty.
 
