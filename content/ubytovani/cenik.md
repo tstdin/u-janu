@@ -26,5 +26,5 @@ V letní sezóně 15.06. - 15.09. pronajímáme pouze celý objekt od neděle do
  * Ložní prádlo: za poplatek 100 Kč / osoba / pobyt
  * Elektřina: podle skutečné spotřeby dle sazeb Eon
  * Závěrečný úklid: vlastní nebo za poplatek 1 000 Kč / chalupa
- * Rekreační poplatek: 15 Kč / dospělá osoba / den
+ * Rekreační poplatek: 21 Kč / dospělá osoba / den
  * Povolení k vjezdu: 120 Kč / vozidlo
