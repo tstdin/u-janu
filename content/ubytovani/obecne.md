@@ -3,7 +3,7 @@ weight: 3
 ---
 
 ## Obecně
-Celoroční provoz. Minimální délka ubytování je 6 nocí.
+Celoroční provoz.
 
 Doprava je ideální vlastním vozem s možností parkování přímo u chalupy. V případě příjezdu vlakem či autobusem je cesta k chalupě okolo 5 km.
 
