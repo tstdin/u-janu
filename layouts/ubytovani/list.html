@@ -10,7 +10,7 @@
       </div>
       <div class="col-md right-half">
         {{ range (where .Data.Pages "Weight" ">=" 3).ByWeight }}
-          <div class="card shadow">
+          <div class="card shadow warning-card">
             {{ .Content }}
           </div>
         {{ end }}
