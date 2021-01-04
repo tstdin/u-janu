@@ -11,6 +11,6 @@ Stravování neposkytujeme. Možnost vaření ve vybavené kuchyňce nebo stravo
 
 Domácí zvířata jsou zakázána.
 
-#### Předání
- * Začátek: neděle od 10 hodin
- * Konec: následující sobota od 12 hodin
+#### Příjezd a odjezd
+ * Týdenní pobyt: příjezd v neděli do 12 hodin, předání následující sobotu do 12 hodin
+ * Víkendový pobyt: dle domluvy
