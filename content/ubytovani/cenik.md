@@ -1,7 +1,6 @@
 ---
 weight: 4
 markup: "mmark"
-draft: true
 ---
 
 ## Ceník
