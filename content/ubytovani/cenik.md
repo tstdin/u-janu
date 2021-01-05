@@ -10,6 +10,7 @@ markup: "mmark"
 --------------------|----------------|----------
 __Celoročně__       | 30 000 Kč      | týden (Ne - So)
 __Celoročně__       | 12 000 Kč      | víkend
+__Jarní prázdniny__ | 30 000 Kč      | týden (mezi 1.2. a 14.3.)
 __Velikonoce__*     | 18 000 Kč      | 2.4. - 5.4.
 __Vánoce__*         | 25 000 Kč      | 23.12. - 26.12.
 __Silvestr__*       | 25 000 Kč      | 30.12. - 1.1.
