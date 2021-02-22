@@ -8,12 +8,12 @@ markup: "mmark"
 {.table .table-responsive-sm}
 &nbsp;              | Cena / chalupa | Trvání
 --------------------|----------------|----------
-__Celoročně__       | 30 000 Kč      | týden (Ne - So)
-__Celoročně__       | 12 000 Kč      | víkend
-__Jarní prázdniny__ | 30 000 Kč      | týden (mezi 1.2. a 14.3.)
-__Velikonoce__*     | 18 000 Kč      | 2.4. - 5.4.
-__Vánoce__*         | 25 000 Kč      | 23.12. - 26.12.
-__Silvestr__*       | 25 000 Kč      | 30.12. - 1.1.
+__Celoročně__       | 0 Kč      | týden (Ne - So)
+__Celoročně__       | 0 Kč      | víkend
+__Jarní prázdniny__ | 0 Kč      | týden (mezi 1.2. a 14.3.)
+__Velikonoce__*     | 0 Kč      | 2.4. - 5.4.
+__Vánoce__*         | 0 Kč      | 23.12. - 26.12.
+__Silvestr__*       | 0 Kč      | 30.12. - 1.1.
 
 (*) Prodloužení před i po: 3 000 Kč / den
 

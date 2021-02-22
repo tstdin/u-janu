@@ -67,6 +67,11 @@ p, li, th, tr { color: #000000; }
 .card h2 { padding-bottom: 20px; }
 .card li { line-height: 2.5; }
 .card table { margin-bottom: 35px; }
+.warning-card {
+  background-color: #FFA6A6;
+  margin: 0 4%;
+  text-align: center;
+}
 
 /* OKOLI PAGE ================================ */
 #list-places {
